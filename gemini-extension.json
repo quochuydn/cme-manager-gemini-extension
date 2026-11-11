@@ -1,5 +1,5 @@
 {
-  "name": "cme-gemini-extension",
+  "name": "cme-manager-gemini-extension",
   "version": "1.0.0",
   "description": "CME Manager - Trợ lý AI Quản lý Hội nghị Y khoa & Đào tạo y khoa liên tục (CME) thông qua giao thức MCP (Model Context Protocol).",
   "author": "CME Manager Team",

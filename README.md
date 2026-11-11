@@ -19,7 +19,7 @@
 
 ## 📖 Giới thiệu
 
-**`cme-gemini-extension`** là extension chính thức dành cho **Google Gemini CLI**, cho phép các nhà quản lý y tế, bác sĩ, điều phối viên hội nghị và cán bộ quản lý đào tạo tương tác trực tiếp với nền tảng **CME Manager** bằng ngôn ngữ tự nhiên thông qua giao thức **Model Context Protocol (MCP)**.
+**`cme-manager-gemini-extension`** là extension chính thức dành cho **Google Gemini CLI**, cho phép các nhà quản lý y tế, bác sĩ, điều phối viên hội nghị và cán bộ quản lý đào tạo tương tác trực tiếp với nền tảng **CME Manager** bằng ngôn ngữ tự nhiên thông qua giao thức **Model Context Protocol (MCP)**.
 
 Với hơn **93 công cụ nghiệp vụ y tế chuyên sâu**, extension hỗ trợ toàn diện từ khâu tra cứu thông tin, đọc tài liệu chương trình (PDF, Word, Excel, hình ảnh) để tạo bản nháp hội nghị, quản lý báo cáo viên/giảng viên, điều phối thực hành lâm sàng, xuất báo cáo và tạo mã QR/khảo sát.
 
@@ -51,7 +51,7 @@ Với hơn **93 công cụ nghiệp vụ y tế chuyên sâu**, extension hỗ t
 Chạy câu lệnh sau trong terminal của bạn:
 
 ```bash
-gemini extensions install https://github.com/<your-username>/cme-gemini-extension
+gemini extensions install https://github.com/<your-username>/cme-manager-gemini-extension
 ```
 
 *(Hoặc cài đặt trực tiếp từ kho Extensions Gallery khi đã được công khai).*
@@ -76,7 +76,7 @@ Bạn có thể thiết lập Token theo một trong hai cách:
 
 #### Cách 1: Sử dụng lệnh cấu hình tương tác của Gemini CLI (Khuyên dùng)
 ```bash
-gemini extensions config cme-gemini-extension
+gemini extensions config cme-manager-gemini-extension
 ```
 Hệ thống sẽ hỏi bạn nhập `CME_ACCESS_TOKEN`. Giá trị này sẽ được lưu trữ an toàn trong keychain của hệ điều hành.
 
