@@ -4,6 +4,7 @@
   "description": "CME Manager - Trợ lý AI Quản lý Hội nghị Y khoa & Đào tạo y khoa liên tục (CME) thông qua giao thức MCP (Model Context Protocol).",
   "author": "CME Manager Team",
   "license": "MIT",
+  "repository": "https://github.com/quochuydn/cme-manager-gemini-extension",
   "contextFileName": "GEMINI.md",
   "settings": [
     {

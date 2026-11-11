@@ -51,7 +51,7 @@ Với hơn **93 công cụ nghiệp vụ y tế chuyên sâu**, extension hỗ t
 Chạy câu lệnh sau trong terminal của bạn:
 
 ```bash
-gemini extensions install https://github.com/<your-username>/cme-manager-gemini-extension
+gemini extensions install https://github.com/quochuydn/cme-manager-gemini-extension
 ```
 
 *(Hoặc cài đặt trực tiếp từ kho Extensions Gallery khi đã được công khai).*
