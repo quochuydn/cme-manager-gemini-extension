@@ -1,0 +1,27 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment & Secret Tokens
+.env
+.env.local
+.env.*.local
+*.token
+*.key
+
+# Editor & IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node & Build artifacts (if any scripts added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

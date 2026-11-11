@@ -1,0 +1,25 @@
+{
+  "name": "cme-gemini-extension",
+  "version": "1.0.0",
+  "description": "CME Manager - Trợ lý AI Quản lý Hội nghị Y khoa & Đào tạo y khoa liên tục (CME) thông qua giao thức MCP (Model Context Protocol).",
+  "author": "CME Manager Team",
+  "license": "MIT",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "Token Kết nối AI (CME Personal Access Token)",
+      "description": "Token truy cập cá nhân được cấp từ hệ thống CME (CMS -> Cài đặt tài khoản -> Kết nối AI -> Tạo Token Kết nối AI).",
+      "envVar": "CME_ACCESS_TOKEN",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "cme-manager": {
+      "httpUrl": "https://apiv2.cmemanager.vn/mcp",
+      "headers": {
+        "Authorization": "Bearer ${CME_ACCESS_TOKEN}"
+      },
+      "description": "Máy chủ CME Manager MCP Server kết nối trực tiếp hơn 93 công cụ chuyên sâu về Hội nghị y khoa, Khóa đào tạo CME, Thực hành lâm sàng, Khảo sát & Báo cáo."
+    }
+  }
+}
